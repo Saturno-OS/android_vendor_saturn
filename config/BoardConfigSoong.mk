@@ -45,8 +45,8 @@ SOONG_CONFIG_NAMESPACES += saturnNvidiaVars
 SOONG_CONFIG_saturnNvidiaVars += \
     uses_nv_enhancements
 
-SOONG_CONFIG_NAMESPACES += arrowQcomVars
-SOONG_CONFIG_arrowQcomVars += \
+SOONG_CONFIG_NAMESPACES += saturnQcomVars
+SOONG_CONFIG_saturnQcomVars += \
     should_wait_for_qsee \
     supports_extended_compress_format \
     supports_hw_fde \
